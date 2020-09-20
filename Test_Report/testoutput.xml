@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="45.533">
+<testcase classname="Test Assign leaves" name="_2" time="24.123">
+<system-out><![CDATA[Given User is logged in successfully........................................passed
+When Click on Assign leaves.................................................passed
+And Enter Employee name "Linda Anderson"....................................passed
+And Enter Leave Type "Vacation US"..........................................passed
+And Enter From date "2020-09-16"............................................passed
+And Enter To date "2020-09-17"..............................................passed
+And Select duration  "Half Day".............................................passed
+And Enter Cooment "Testing ORG".............................................passed
+And click on Assign button..................................................passed
+Then Verify if the leave is failed or pass..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Assign leaves" name="_3" time="21.006">
+<system-out><![CDATA[Given User is logged in successfully........................................passed
+When Click on Assign leaves.................................................passed
+And Enter Employee name "Steven Edwards"....................................passed
+And Enter Leave Type "FMLA US"..............................................passed
+And Enter From date "2020-09-16"............................................passed
+And Enter To date "2020-09-17"..............................................passed
+And Select duration  "Half Day".............................................passed
+And Enter Cooment "Testing ORG".............................................passed
+And click on Assign button..................................................passed
+Then Verify if the leave is failed or pass..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,433 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6900000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is logged in successfully",
+            "match": {
+              "location": "stepDefinitions.TestAssignLeaves.user_is_logged_in_successfully()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T08:05:10.657Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12204000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TestAssignLeaves.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "",
+        "description": "",
+        "id": "test-assign-leaves;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 837000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TestAssignLeaves.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1705000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Assign leaves",
+            "match": {
+              "location": "stepDefinitions.TestAssignLeaves.click_on_assign_leaves()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter Employee name \"Linda Anderson\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Linda Anderson\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.TestAssignLeaves.enter_employee_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter Leave Type \"Vacation US\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vacation US\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.TestAssignLeaves.enter_leave_type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 377000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter From date \"2020-09-16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-09-16\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.TestAssignLeaves.enter_from_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 362000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter To date \"2020-09-17\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-09-17\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.TestAssignLeaves.enter_to_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Select duration  \"Half Day\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Half Day\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.TestAssignLeaves.select_duration(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter Cooment \"Testing ORG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testing ORG\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.TestAssignLeaves.enter_cooment(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 760000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click on Assign button",
+            "match": {
+              "location": "stepDefinitions.TestAssignLeaves.click_on_assign_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify if the leave is failed or pass",
+            "match": {
+              "location": "stepDefinitions.TestAssignLeaves.verify_if_the_leave_is_failed_or_pass()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@assignLeaves"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4380000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is logged in successfully",
+            "match": {
+              "location": "stepDefinitions.TestAssignLeaves.user_is_logged_in_successfully()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T08:05:34.802Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11252000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TestAssignLeaves.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "",
+        "description": "",
+        "id": "test-assign-leaves;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 880000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TestAssignLeaves.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2364000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Assign leaves",
+            "match": {
+              "location": "stepDefinitions.TestAssignLeaves.click_on_assign_leaves()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter Employee name \"Steven Edwards\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Steven Edwards\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.TestAssignLeaves.enter_employee_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 377000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter Leave Type \"FMLA US\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FMLA US\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.TestAssignLeaves.enter_leave_type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 508000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter From date \"2020-09-16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-09-16\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.TestAssignLeaves.enter_from_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 492000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter To date \"2020-09-17\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-09-17\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.TestAssignLeaves.enter_to_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Select duration  \"Half Day\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Half Day\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.TestAssignLeaves.select_duration(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter Cooment \"Testing ORG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testing ORG\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.TestAssignLeaves.enter_cooment(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click on Assign button",
+            "match": {
+              "location": "stepDefinitions.TestAssignLeaves.click_on_assign_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify if the leave is failed or pass",
+            "match": {
+              "location": "stepDefinitions.TestAssignLeaves.verify_if_the_leave_is_failed_or_pass()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@assignLeaves"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Test Assign leaves",
+    "description": "This Feature will test if we abe able to assign leaves\n1.Login to Application\n2.Click on Assign leaves\n3.Fill the form\n4.Click on Assign leaves button",
+    "id": "test-assign-leaves",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/AssignLeavesFeature.feature",
+    "tags": [
+      {
+        "name": "@assignLeaves",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
